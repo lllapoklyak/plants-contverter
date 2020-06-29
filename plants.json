@@ -1,0 +1,101 @@
+{
+  "plants": [
+    {
+      "type": "Highest",
+      "subCategory": "хвойные",
+      "family": "тисовые",
+      "name": "тис ягодный",
+      "latinName": "Taxus baccata",
+      "avgHigh": 20,
+      "lifePeriod": 2000,
+      "rootSystem": {
+        "rootVegetable": false,
+        "rootType": "стержневая"
+      },
+      "steam": {
+        "steamType": "дерево",
+        "avgRadius": 300
+      },
+      "leafs": {
+        "leafsType": "хвоя",
+        "leafsGrowingType": "круговое",
+        "avgLenght": 25
+      },
+      "harvest": {
+        "harevestType": "одиночная шишка",
+        "harvestingDate": "после 25 лет"
+      }
+    },
+    {
+      "type": "Highest",
+      "subCategory": "цветковые",
+      "family": "кутровые",
+      "name": "олеандр",
+      "latinName": "Nerium",
+      "avgHigh": 2.5,
+      "lifePeriod": 100,
+      "rootSystem": {
+        "rootVegetable": false,
+        "rootType": "стержневая"
+      },
+      "steam": {
+        "steamType": "куст",
+        "avgRadius": 20
+      },
+      "leafs": {
+        "leafsType": "лист",
+        "leafsGrowingType": "круговое",
+        "avgLenght": 150,
+        "avgWidth": 30
+      },
+      "harvest": {
+        "harevestType": "многосеменная листовка",
+        "harvestingDate": "лето - осень"
+      },
+      "flowers": {
+        "inflorescence": "щиток",
+        "bloomDate": "июнь - октябрь",
+        "color": [
+          "белый",
+          "розовый"
+        ],
+        "size": 50
+      }
+    },
+    {
+      "type": "Highest",
+      "subCategory": "цветковые",
+      "family": "спаржевые",
+      "name": "ландыш",
+      "latinName": "Convallária",
+      "avgHigh": 0.25,
+      "lifePeriod": 1,
+      "rootSystem": {
+        "rootVegetable": true,
+        "rootType": "горизонтальное позучее"
+      },
+      "steam": {
+        "steamType": "травянистое",
+        "avgRadius": 2
+      },
+      "leafs": {
+        "leafsType": "лист",
+        "leafsGrowingType": "круговое",
+        "avgLenght": 230,
+        "avgWidth": 100
+      },
+      "harvest": {
+        "harevestType": "шаровидная ягода",
+        "harvestingDate": "июнь - июль"
+      },
+      "flowers": {
+        "inflorescence": "кисть",
+        "bloomDate": "май - июнь",
+        "color": [
+          "белый"
+        ],
+        "size": 7
+      }
+    }
+  ]
+}

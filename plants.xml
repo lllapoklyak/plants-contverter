@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plants>
+    <plant>
+        <avgHigh>20.0</avgHigh>
+        <family>тисовые</family>
+        <harvest>
+            <harevestType>одиночная шишка</harevestType>
+            <harvestingDate>после 25 лет</harvestingDate>
+        </harvest>
+        <latinName>Taxus baccata</latinName>
+        <leafs>
+            <avgLenght>25</avgLenght>
+            <leafsGrowingType>круговое</leafsGrowingType>
+            <leafsType>хвоя</leafsType>
+        </leafs>
+        <lifePeriod>2000</lifePeriod>
+        <name>тис ягодный</name>
+        <rootSystem>
+            <rootType>стержневая</rootType>
+            <rootVegetable>false</rootVegetable>
+        </rootSystem>
+        <steam>
+            <avgRadius>300</avgRadius>
+            <steamType>дерево</steamType>
+        </steam>
+        <subCategory>хвойные</subCategory>
+        <type>Highest</type>
+    </plant>
+    <plant>
+        <avgHigh>2.5</avgHigh>
+        <family>кутровые</family>
+        <flowers>
+            <bloomDate>июнь - октябрь</bloomDate>
+            <color>белый</color>
+            <color>розовый</color>
+            <inflorescence>щиток</inflorescence>
+            <size>50</size>
+        </flowers>
+        <harvest>
+            <harevestType>многосеменная листовка</harevestType>
+            <harvestingDate>лето - осень</harvestingDate>
+        </harvest>
+        <latinName>Nerium</latinName>
+        <leafs>
+            <avgLenght>150</avgLenght>
+            <avgWidth>30</avgWidth>
+            <leafsGrowingType>круговое</leafsGrowingType>
+            <leafsType>лист</leafsType>
+        </leafs>
+        <lifePeriod>100</lifePeriod>
+        <name>олеандр</name>
+        <rootSystem>
+            <rootType>стержневая</rootType>
+            <rootVegetable>false</rootVegetable>
+        </rootSystem>
+        <steam>
+            <avgRadius>20</avgRadius>
+            <steamType>куст</steamType>
+        </steam>
+        <subCategory>цветковые</subCategory>
+        <type>Highest</type>
+    </plant>
+    <plant>
+        <avgHigh>0.25</avgHigh>
+        <family>спаржевые</family>
+        <flowers>
+            <bloomDate>май - июнь</bloomDate>
+            <color>белый</color>
+            <inflorescence>кисть</inflorescence>
+            <size>7</size>
+        </flowers>
+        <harvest>
+            <harevestType>шаровидная ягода</harevestType>
+            <harvestingDate>июнь - июль</harvestingDate>
+        </harvest>
+        <latinName>Convallária</latinName>
+        <leafs>
+            <avgLenght>230</avgLenght>
+            <avgWidth>100</avgWidth>
+            <leafsGrowingType>круговое</leafsGrowingType>
+            <leafsType>лист</leafsType>
+        </leafs>
+        <lifePeriod>1</lifePeriod>
+        <name>ландыш</name>
+        <rootSystem>
+            <rootType>горизонтальное позучее</rootType>
+            <rootVegetable>true</rootVegetable>
+        </rootSystem>
+        <steam>
+            <avgRadius>2</avgRadius>
+            <steamType>травянистое</steamType>
+        </steam>
+        <subCategory>цветковые</subCategory>
+        <type>Highest</type>
+    </plant>
+</plants>
