@@ -4,17 +4,21 @@ import java.io.FileOutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.tsedneva.tasks.plantsconverter.entities.Plants;
 
 /** Entry point for Plants Converter. */
 public final class App {
+
+    private static final Logger logger = LogManager.getLogger(App.class);
 
     private App() {
     }
 
     /** Main entry point. */
     public static void main(String[] args) {
-        System.out.println("Start plants converting...");
+        logger.info("Start plants converting.");
 
         try {
             FileHelper helper = new FileHelper();
@@ -26,10 +30,10 @@ public final class App {
             PlantsConverter.toXml(output, plants);
             output.close();
 
-            System.out.println("End convering.");
+            logger.info("End converting.");
 
         } catch (Exception exception) {
-            exception.printStackTrace();
+            logger.error("Error convering", exception);
         }
     }
 }

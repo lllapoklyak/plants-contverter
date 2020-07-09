@@ -1,0 +1,6 @@
+#!/bin/bash
+
+JAR_FILE=./target/plants-converter-1.0-SNAPSHOT.jar
+if [[ -f "$JAR_FILE" ]]; then
+  java -jar $JAR_FILE
+fi
