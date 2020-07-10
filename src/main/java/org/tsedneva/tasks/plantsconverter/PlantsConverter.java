@@ -1,6 +1,9 @@
 package org.tsedneva.tasks.plantsconverter;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonSyntaxException;
+
 import java.io.FileOutputStream;
 import java.io.Reader;
 import javax.xml.bind.JAXBContext;

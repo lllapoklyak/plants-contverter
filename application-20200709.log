@@ -12,3 +12,15 @@
 2020-07-09 10:11:41.949 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - Strart converting entities to XML.
 2020-07-09 10:11:42.139 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - End converting entities to XML.
 2020-07-09 10:11:42.160 [main] INFO  org.tsedneva.tasks.plantsconverter.App - End converting.
+2020-07-09 10:21:16.615 [main] INFO  org.tsedneva.tasks.plantsconverter.App - Start plants converting.
+2020-07-09 10:21:16.620 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - Start converting JSON to entities.
+2020-07-09 10:21:16.652 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - End converting JSON to entities.
+2020-07-09 10:21:16.655 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - Strart converting entities to XML.
+2020-07-09 10:21:16.770 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - End converting entities to XML.
+2020-07-09 10:21:16.771 [main] INFO  org.tsedneva.tasks.plantsconverter.App - End converting.
+2020-07-09 20:15:29.392 [main] INFO  org.tsedneva.tasks.plantsconverter.App - Start plants converting.
+2020-07-09 20:15:29.399 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - Start converting JSON to entities.
+2020-07-09 20:15:29.473 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - End converting JSON to entities.
+2020-07-09 20:15:29.474 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - Strart converting entities to XML.
+2020-07-09 20:15:29.692 [main] INFO  org.tsedneva.tasks.plantsconverter.PlantsConverter - End converting entities to XML.
+2020-07-09 20:15:29.698 [main] INFO  org.tsedneva.tasks.plantsconverter.App - End converting.

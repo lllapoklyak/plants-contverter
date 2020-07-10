@@ -4,9 +4,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+
 public final class FileHelper {
 
-    public String getFilePathToSave() {
+    public String getFilePathToSave() throws PropertiesFileException{
         Properties prop = new Properties();
 
         String result = "";
@@ -15,9 +16,8 @@ public final class FileHelper {
             result = prop.getProperty("app.basedir");
 
         } catch (IOException exception) {
-            exception.printStackTrace();
+            throw new PropertiesFileException();
         }
-
         return result;
     }
 }

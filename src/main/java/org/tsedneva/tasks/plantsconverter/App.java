@@ -1,8 +1,14 @@
 package org.tsedneva.tasks.plantsconverter;
 
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
+import javax.xml.bind.JAXBException;
+
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonSyntaxException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -32,8 +38,15 @@ public final class App {
 
             logger.info("End converting.");
 
-        } catch (Exception exception) {
-            logger.error("Error convering", exception);
+        } catch (IOException exception) {
+            logger.error("Error with reading/writing file");
+        } catch (PropertiesFileException exception) {
+            logger.error("Error reading project properties file");
+        } catch (JsonSyntaxException | JsonIOException exception) {
+            logger.error("Error parsing JSON");
+        } catch (JAXBException exception) {
+            logger.error("Error saving XML");
+
         }
     }
 }
